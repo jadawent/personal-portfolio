@@ -1,5 +1,5 @@
 .App {
-    background-color: #282c34;
+    background-color: #598690;
     min-height: 100vh;
     font-size: calc(10px + 2vmin);
     color: white;
@@ -41,7 +41,7 @@
   width: 400px;
   height: auto;
   border-radius: 100px;
-  display: block;
+  display: flex;
   margin-left: 150;
 }
 
@@ -72,41 +72,120 @@
 }
 
 .education{
-  font-size: 25px;
+  font-size: 30px;
   display: flex;
   justify-content: left;
-  margin: 25px 100px 25px 100px;
+  margin-left: 100px;
 }
 
 .tools{
-  font-size: 25px;
+  font-size: 30px;
   display: flex;
   justify-content: left;
-  margin: 50px 100px 50px 100px;
+  margin-left: 100px;
 }
 
 .projectSection {
-  font-size: 25px;
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+  margin-left: 100px;
+}
+
+.projectHeader{
+  font-size: 30px;
+}
+
+.workflow{
+    width: 500px;
+    height: auto;
+}
+
+.workflowText{
+  font-size: 20px;
+}
+
+.projectContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 100px;
+  width: 500px;
+  margin-top: 15px;
+}
+
+.educationText{
+   margin-left: 100px;
+   font-family: Lucida Console;
+   font-size: 20px;
+}
+
+.logoSection{
+  display: flex;
+  margin-left: 100 px;
+  margin-right: 100px;
+}
+
+.logos{
+  width: 75px;
+  height: auto;
+}
+
+.logoContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.logoLabel{
+  margin-top: 8px;
+  font-size: 1.2rem;
+  color: white;
+  font-family: Lucida Console;
+}
+
+.contactHeader{
+  font-size: 30px;
+}
+
+.projectSection {
+  font-size: 30px;
   display: flex;
   justify-content: left;
   margin: 50px 100px 50px 100px;
+  flex-direction: column;
+}
+
+.gitHub a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.gitHub a:hover {
+  text-decoration: underline;
 }
 
 .contactSection {
-  font-size: 25px;
+  font-size: 20px;
   justify-content: left;
-  margin: 50px 100px 50px 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
   display: flex;
-}
-.contactHeader{
-  font-size: 25px;
-}
-.projectHeader{
-  font-size: 25px;
+  flex-direction: column;
 }
 
-.schoolIcon{
-  margin-left: 100px;
-  width: 100px;
+.linkedIn a{
+  text-decoration: none;
   color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.linkedIn a:hover {
+  text-decoration: underline;
 }
