@@ -1,0 +1,191 @@
+.App {
+    background-color: #598690;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  z-index: 1000;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffcc00;
+}
+
+.Content {
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+.image-size{
+  width: 400px;
+  height: auto;
+  border-radius: 100px;
+  display: flex;
+  margin-left: 150;
+}
+
+.text{
+  display: block;
+  justify-content: right;
+  margin-top: 250px;
+}
+
+.Name{
+  font-family: Lucida Console;
+  margin-left: 15px;
+}
+
+.intro{
+  font-family: Lucida Console;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-right: 100px;
+  line-height: 1.5;
+}
+
+.aboutSection {
+  margin-left: 100px;
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+}
+
+.education{
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+  margin-left: 100px;
+}
+
+.tools{
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+  margin-left: 100px;
+}
+
+.projectSection {
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+  margin-left: 100px;
+}
+
+.projectHeader{
+  font-size: 30px;
+}
+
+.workflow{
+    width: 500px;
+    height: auto;
+}
+
+.workflowText{
+  font-size: 20px;
+}
+
+.projectContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 100px;
+  width: 500px;
+  margin-top: 15px;
+}
+
+.educationText{
+   margin-left: 100px;
+   font-family: Lucida Console;
+   font-size: 20px;
+}
+
+.logoSection{
+  display: flex;
+  margin-left: 100 px;
+  margin-right: 100px;
+}
+
+.logos{
+  width: 75px;
+  height: auto;
+}
+
+.logoContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.logoLabel{
+  margin-top: 8px;
+  font-size: 1.2rem;
+  color: white;
+  font-family: Lucida Console;
+}
+
+.contactHeader{
+  font-size: 30px;
+}
+
+.projectSection {
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+  margin: 50px 100px 50px 100px;
+  flex-direction: column;
+}
+
+.gitHub a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.gitHub a:hover {
+  text-decoration: underline;
+}
+
+.contactSection {
+  font-size: 20px;
+  justify-content: left;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.linkedIn a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.linkedIn a:hover {
+  text-decoration: underline;
+}
