@@ -8,6 +8,8 @@ import reactLogo from './react.svg';
 import pythonLogo from './python.svg';
 import springBootLogo from './spring-boot.svg';
 import workflow from './workflow.png';
+import yummyfood from './yummyfood.png';
+import musicDB from './musicDB.png';
 
 
 function App() {
@@ -80,10 +82,33 @@ function App() {
                       Check out my projects on my GitHub!
               </a>
           </div>
-          <div className="projectContainer">
-            <img className="workflow" src={workflow} alt="workflow" />
-            <p className="workflowText"> WorkFlow. A web application to streamline task management
-             and communication within restaurants. Built using React, CSS, Java Spring Boot and MySQL.</p>
+          <div className="projectsWrapper">
+              <div className="projectContainer">
+              <div className="link">
+                <a href="https://github.com/jadawent/workflow" target="_blank" rel="noopener noreferrer"> WorkFlow </a>
+              </div>
+                <img className="workflow" src={workflow} alt="workflow" />
+                <p className="workflowText"> A web application to streamline task management
+                 and communication within restaurants. Built using React, CSS, Java Spring Boot and MySQL.</p>
+              </div>
+
+              <div className="projectContainer">
+              <div className="link">
+                <a href="https://github.com/olsonja88/YummyFood" target="_blank" rel="noopener noreferrer"> YummyFood </a>
+              </div>
+                <img className="yummyfood" src={yummyfood} alt="yummyfood" />
+                <p className="workflowText"> A food ordering app designed to simplify the process of ordering
+                food from various restaurants. Built using Java, JavaFX, CSS, SQL, and Gradle. </p>
+              </div>
+
+              <div className="projectContainer">
+              <div className="link">
+                <h2 className="title"> Record Label Database </h2>
+              </div>
+                <img className="musicDB" src={musicDB} alt="musicDB" />
+                 <p className="workflowText"> A database designed for a record label, with the ability to add and search through bands, songs, and albums.
+                Built with Java, SQL, and Apache NetBeans.</p>
+              </div>
           </div>
         </section>
 
@@ -97,6 +122,16 @@ function App() {
               <a href="mailto:jadawent@gmail.com"> Email Me! </a>
           </div>
         </section>
+
+        <div className="footer">
+        <div className="footerDetails">
+            <a href="https://www.linkedin.com/in/jada-wentland" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
+            <a href="mailto:jadawent@gmail.com"> Email </a>
+            <p className="mn"> Located in Minneapolis, Mn </p>
+        </div>
+
+
+        </div>
       </div>
     </>
   );
