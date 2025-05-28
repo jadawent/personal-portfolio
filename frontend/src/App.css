@@ -38,11 +38,11 @@
 }
 
 .image-size{
-  width: 400px;
-  height: auto;
-  border-radius: 100px;
-  display: flex;
-  margin-left: 150;
+  max-width: 100%;
+  height: 500px;
+  display: block;
+  border-radius: 50px;
+
 }
 
 .text{
@@ -79,6 +79,7 @@
 }
 
 .tools{
+  margin-top: 40px;
   font-size: 30px;
   display: flex;
   justify-content: left;
@@ -97,12 +98,29 @@
 }
 
 .workflow{
-    width: 500px;
+    width: 400px;
     height: auto;
+}
+
+.yummyfood{
+    width: 300px;
+    height: auto;
+}
+
+.musicDB{
+  height: 200px;
 }
 
 .workflowText{
   font-size: 20px;
+}
+
+.title{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin: 0 0 0 0;
 }
 
 .projectContainer{
@@ -111,8 +129,15 @@
   align-items: center;
   text-align: center;
   margin-left: 100px;
-  width: 500px;
+  width: 300px;
   margin-top: 15px;
+}
+.projectsWrapper {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 15px;
 }
 
 .educationText{
@@ -184,8 +209,47 @@
   color: white;
   font-weight: bold;
   font-size: 1.4rem;
+  margin-bottom: 15px;
 }
 
 .linkedIn a:hover {
   text-decoration: underline;
 }
+
+.link a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.link a:hover {
+  text-decoration: underline;
+
+}
+.footer{
+  background-color: #333;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+.footerDetails{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  color: white;
+}
+
+.footerDetails a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.footerDetails a:hover {
+  text-decoration: underline;
+}
+
