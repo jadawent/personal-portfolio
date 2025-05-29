@@ -87,7 +87,9 @@ function App() {
               <div className="link">
                 <a href="https://github.com/jadawent/workflow" target="_blank" rel="noopener noreferrer"> WorkFlow </a>
               </div>
-                <img className="workflow" src={workflow} alt="workflow" />
+                <a href="https://github.com/jadawent/workflow" target="_blank" rel="noopener noreferrer">
+                    <img className="workflow" src={workflow} alt="workflow" />
+                </a>
                 <p className="workflowText"> A web application to streamline task management
                  and communication within restaurants. Built using React, CSS, Java Spring Boot and MySQL.</p>
               </div>
@@ -96,16 +98,20 @@ function App() {
               <div className="link">
                 <a href="https://github.com/olsonja88/YummyFood" target="_blank" rel="noopener noreferrer"> YummyFood </a>
               </div>
-                <img className="yummyfood" src={yummyfood} alt="yummyfood" />
+                <a href="https://github.com/olsonja88/YummyFood" target="_blank" rel="noopener noreferrer">
+                    <img className="yummyfood" src={yummyfood} alt="yummyfood" />
+                </a>
                 <p className="workflowText"> A food ordering app designed to simplify the process of ordering
                 food from various restaurants. Built using Java, JavaFX, CSS, SQL, and Gradle. </p>
               </div>
 
               <div className="projectContainer">
               <div className="link">
-                <h2 className="title"> Record Label Database </h2>
+                <a href="https://github.com/jadawent/record-label-database" target="_blank" rel="noopener noreferrer"> Record Label Database </a>
               </div>
-                <img className="musicDB" src={musicDB} alt="musicDB" />
+                <a href="https://github.com/jadawent/record-label-database" target="_blank" rel="noopener noreferrer">
+                    <img className="musicDB" src={musicDB} alt="musicDB" />
+                </a>
                  <p className="workflowText"> A database designed for a record label, with the ability to add and search through bands, songs, and albums.
                 Built with Java, SQL, and Apache NetBeans.</p>
               </div>
