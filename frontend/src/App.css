@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 60px;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -148,7 +149,7 @@
 
 .logoSection{
   display: flex;
-  margin-left: 100 px;
+  margin-left: 100px;
   margin-right: 100px;
 }
 
@@ -160,7 +161,7 @@
 .logoContainer{
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   text-align: center;
   margin-left: 100px;
 }
@@ -227,16 +228,21 @@
   text-decoration: underline;
 
 }
-.footer{
+
+.footer {
   background-color: #333;
-  height: 80px;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
- }
+  padding: 20px 0;
+  width: 100%;
+}
+
 
 .footerDetails{
   display: flex;
+  flex-direction: row;
   gap: 50px;
   align-items: center;
   color: white;
@@ -264,10 +270,30 @@
     padding-top: 30px;
   }
 
+.aboutSection {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .image-size {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
   .text {
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .Name, .intro {
+    margin: 0 auto;
   }
 
   .intro {
@@ -276,7 +302,7 @@
     margin-right: 0;
   }
 
-  .aboutSection,
+
   .education,
   .tools,
   .projectSection,
@@ -308,11 +334,6 @@
 
   .logos {
     width: 50px;
-  }
-
-  .image-size {
-    height: auto;
-    max-width: 90%;
   }
 
   .musicDB {
